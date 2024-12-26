@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 
-df = pd.read_csv("/content/mcdonalds.csv")
+df = pd.read_csv("mcdonalds.csv")
 
 df.head()
 
